@@ -3,43 +3,6 @@
   color: cyan;
 }
 
-
-@media (max-width: 67.5em) {
-  .skills__wrapper {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 34px 24px;
-    border: none;
-    padding-block: 52px 0;
-  }
-
-  .skills__item {
-    text-align: center;
-  }
-
-  .skills__title {
-    font-weight: 300;
-    /* padding-right: 200px;
-    padding-left: -20px; */
-    /* margin-inline-start: 5px; */
-    margin-block-end: 0px; 
-    margin-block-start: -25px;
-    margin-inline-start: -15px;
-    /* font-size: ; */
-  }
-
-.skills__title1{
-  text-align: center;
-  /* padding-right: 200px;
-  padding-left: -20px; */
-  /* margin-inline-start: 5px; */
-  margin-block-end: -14px; 
-  margin-block-start: -20px;
-}
-  .skills__rings {
-    translate: 40% 50%;
-  }
-}
-
 .jeffin {
   color: hsl(153, 71%, 59%);
 }
